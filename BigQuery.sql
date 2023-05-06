@@ -1,4 +1,5 @@
 ## merging all files in a temporary table 
+## excluded start_station_id and end station_id since there were some inconsistencies and the columns were not necessary for this analysis
 
 BEGIN
  CREATE TEMP TABLE all_data AS
