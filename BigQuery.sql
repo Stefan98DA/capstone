@@ -244,6 +244,6 @@ GROUP BY member_type, month
 
 ## average number of rides by member_type
 SELECT COUNT(*) AS number_of_trips,  member_type 
-FROM capstone-385619._scriptf4825afdbaceb40bfe6209d8c53a7b15fe144ea0.final_data
+FROM `capstone-385619._script2fed36877decab554777bc3d3c01cc24dd9889df.final_data`
 WHERE trip_duration <= 1440
 GROUP BY member_type
