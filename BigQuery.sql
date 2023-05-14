@@ -153,7 +153,7 @@ CREATE TEMP TABLE null_stations2 AS
            start_station_name,
            end_station_name
     FROM `capstone-385619._script6b214dfd5465895ad9f713fd8760bf1dcfa33f76.all_data`
-    WHERE rideable_type = 'classic_bike' AND start_station_name IS NULL OR end_station_name IS NULL);
+    WHERE rideable_type = 'classic_bike' AND (start_station_name IS NULL OR end_station_name IS NULL));
   END   
 
 
